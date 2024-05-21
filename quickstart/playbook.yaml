@@ -1,0 +1,9 @@
+- name: baby's first play
+  hosts: my_server
+  tasks:
+  - name: Ping hosts
+    ansible.builtin.ping:
+
+  - name: Hello world
+    ansible.builtin.debug:
+      msg: Hello world

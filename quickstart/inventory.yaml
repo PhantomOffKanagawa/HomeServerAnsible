@@ -1,0 +1,4 @@
+my_server:
+  hosts:
+    phantom_server:
+      ansible_host: phantomserver
